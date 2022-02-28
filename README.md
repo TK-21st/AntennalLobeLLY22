@@ -6,7 +6,19 @@ Please find relevant JuPyteR notebooks in the `/notebooks` folder. The python sc
 
 ### Software Requirements
 The notebooks are developed using `Python 3.8.8` and earlier versions are not guaranteed to work.
-The package requirements for each notebook is listed at the beginning of the notebook.
+
+The following packages are required:
+```
+neural    # in-house package, see below
+jupytext  # synchronization between jupyter notebooks and python scripts
+seaborn
+```
+
+Note that `neural` is an in-house package that supports massively parallel evaluation of 
+biological neural networks. It is written purely in Python and supports a natural 
+API. This notebook, was developed using a specific pinned version of neural,
+and can be installed from GitHub [here](https://github.com/chungheng/neural/tree/al).
+
 
 ## Citation
 ```
