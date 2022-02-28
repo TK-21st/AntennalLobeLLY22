@@ -6,9 +6,9 @@
 #       extension: .py
 #       format_name: percent
 #       format_version: '1.3'
-#       jupytext_version: 1.11.4
+#       jupytext_version: 1.13.7
 #   kernelspec:
-#     display_name: Python 3
+#     display_name: Python 3 (ipykernel)
 #     language: python
 #     name: python3
 # ---
@@ -31,21 +31,6 @@
 # the model describing each BSG in the circuit.
 #
 # See [[LAY20]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007751#sec037) for more details on the Noisy Connor-Stevens neuron model.
-#
-# ## Requirements
-# ```
-# pandas>=1.2.3
-# numpy>=1.20
-# pycuda>=2021.1
-# matplotlib>=3.4
-# scikit-cuda>=0.5.3
-# neural
-# ```
-#
-# Note that `neural` is an in-house package that supports massively parallel evaluation of 
-# biological neural networks. It is written purely in Python and supports a natural 
-# API. This notebook, was developed using a specific pinned version of neural,
-# and can be installed from GitHub [here](https://github.com/chungheng/neural/tree/al).
 
 # %%
 import random

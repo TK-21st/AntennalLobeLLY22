@@ -6,9 +6,9 @@
 #       extension: .py
 #       format_name: percent
 #       format_version: '1.3'
-#       jupytext_version: 1.11.4
+#       jupytext_version: 1.13.7
 #   kernelspec:
-#     display_name: Python 3
+#     display_name: Python 3 (ipykernel)
 #     language: python
 #     name: python3
 # ---
@@ -20,15 +20,6 @@
 # 2. Computing Odorant Concentration Contrast
 # 3. Measuring concentration invariance and contrast boosting by comparing steady-state and transient
 #    OSN and PN responses to concentration waveform and concentration contrast.
-#
-# Python version `>=3.8` is used for this notebook with the following required packages:
-# ```
-# numpy>=1.20
-# matplotlib>=3.4
-# seaborn>=0.11
-# scipy>=1.8
-# tqdm>=4.60
-# ```
 
 # %%
 import numpy as np
